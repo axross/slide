@@ -4,11 +4,11 @@
 
 ## Redux
 
-今日はReduxというライブラリについて話します。
+Reduxというライブラリについて話します。
 
 ## Predictable state container for JavaScript apps
 
-ReduxのGitHubのREADMEの冒頭にはこのように書いてあります。日本語にすると、「JavaScriptアプリケーションのための革新性のない状態コンテナ」となります。
+Reduxとは？リポジトリのREADMEの冒頭にはこのように書いてあります。日本語にすると、「JavaScriptアプリケーションのための革新性のない状態コンテナ」となります。
 
 ## Redux is family of Flux
 
