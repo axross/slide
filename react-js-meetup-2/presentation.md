@@ -46,3 +46,15 @@ JavaScriptのSPAは、凝った作りを求められるようになってきて�
 Reactによって状態がDOMと切り離され、多少マシにはなりました。Componentは値によって参照透過にDOM操作をする関数として機能しますが、その「値」、アプリケーションの状態の管理については手付かずの状態です。
 
 僕らはそれをFluxというフローに当てはめて解決しようとしていますが、中でもReduxはこの状態の管理を一番うまくできるFlux亜種かな、と僕は思います。
+
+## Single State Tree
+
+では、ReduxのData Flowの話に戻りましょう。まずは中核となる、Single State Treeという概念についてお話します。Single State Treeは、他のFluxにおけるStoreにあたる概念です。
+
+## Single State Tree (2)
+
+Single State Treeはその名のとおり、Single State、つまり単一のツリー構造の状態が中に存在します。そしてそれらは、複数のReducerによって更新されます。
+
+## Single State Tree (3)
+
+Reducerの責務は、どのActionを購読し、Actionから渡ってきた値をどうStateに格納するか、のみです。
